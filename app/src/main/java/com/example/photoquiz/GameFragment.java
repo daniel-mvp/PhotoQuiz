@@ -63,7 +63,7 @@ public class GameFragment extends Fragment {
             @Override
             public void onClick(View view) {
                 AlertDialog.Builder dialog = new AlertDialog.Builder(requireContext());
-                dialog.setTitle("Супер подсказка от МАРСЕЛЯ");
+                dialog.setTitle("зачем тебе жизнь портить!");
                 dialog.setMessage(prompt);
 
                 dialog.setPositiveButton("Понятно", new DialogInterface.OnClickListener() {
